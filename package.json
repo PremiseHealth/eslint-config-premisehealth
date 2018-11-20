@@ -15,8 +15,8 @@
   "author": "Premise Health",
   "license": "ISC",
   "devDependencies": {
-    "code": "^5.2.3",
-    "eslint": "^5.9.0",
-    "lab": "^18.0.0"
+    "code": "5.x.x",
+    "eslint": "5.x.x",
+    "lab": "18.x.x"
   }
 }
