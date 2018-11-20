@@ -4,7 +4,7 @@
   "description": "Shareable ESLint config for Premise Health node projects",
   "main": "lib/index.js",
   "scripts": {
-    "test": "npm run lint && lab -v -t 100 -a code"
+    "test": "lab -v -t 100 -a code"
   },
   "keywords": [
     "premisehealth",
@@ -13,5 +13,10 @@
     "eslintconfig"
   ],
   "author": "Premise Health",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "code": "^5.2.3",
+    "eslint": "^5.9.0",
+    "lab": "^18.0.0"
+  }
 }
