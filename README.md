@@ -9,3 +9,7 @@ Shareable ESLint config for Premise Health node projects. To use in your project
 ```
 
 ESLint will automatically insert the `eslint-config-`, so technically, you can just write `"extends": "premisehealth"`.
+
+Test: `npm run test`
+
+Develop: make changes to the lib/index.js file and update tests.
