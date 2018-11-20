@@ -1,0 +1,17 @@
+{
+  "name": "eslint-config-premisehealth",
+  "version": "1.0.0",
+  "description": "Shareable ESLint config for Premise Health node projects",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "npm run lint && lab -v -t 100 -a code"
+  },
+  "keywords": [
+    "premisehealth",
+    "lint",
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Premise Health",
+  "license": "ISC"
+}
